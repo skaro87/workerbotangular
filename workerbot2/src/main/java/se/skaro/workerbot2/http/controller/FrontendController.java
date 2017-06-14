@@ -24,7 +24,7 @@ public class FrontendController {
 		if (userProfle != null) {
 			return new ResponseEntity<>(userProfle, HttpStatus.OK);
 		}
-		return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		return new ResponseEntity<>(HttpStatus.NOT_FOUND); 
 	}
 
 }
